@@ -1,0 +1,713 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 2px 2px 5px rgba(48, 2, 255, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    
+}
+
+nav li {
+    margin: 0 10px;
+    padding: 20px;
+    
+}
+
+nav li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #1c0df1 ;
+    font-family: 'Courier New';
+}
+
+nav li a:hover{
+    color: #9c9c9c;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    padding: 20px;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #fdfdfd;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px #1c0df1 ;
+}
+.iconos a:hover {
+   
+    color: #9c9c9c;
+   
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+.principal1 {
+    background-image: url('../imagen/122.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    background: rgba(238, 216, 17, 0.2);
+}
+
+.contenidodos h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    color: #fdfdfd;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Matemasie";
+}
+
+.contenidodos h2{
+    margin-bottom: 15px;
+    color: #fdfdfd;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Matemasie";
+}
+
+.contenidodos p{
+    margin-bottom: 30px;
+    margin-bottom: 15px;
+    color: #000000;
+    text-shadow:2px 2px 4px #000000;
+    margin-bottom: 35px;
+    font-family: "Afacad Flux";
+}
+
+
+.titulo_form {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    text-shadow: 2px 2px 4px rgb(194, 194, 194);
+}
+
+.titulo_form h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.titulo_form1 {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(236, 11, 11, 0.1);
+    text-shadow: 2px 2px 4px rgb(111, 111, 114);
+}
+
+.titulo_form1 h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.titulo_form2 {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(236, 11, 11, 0.1);
+    text-shadow: 2px 2px 4px rgb(111, 111, 114);
+}
+
+.titulo_form2 h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.titulo_form3 {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(236, 11, 11, 0.1);
+    text-shadow: 2px 2px 4px rgb(111, 111, 114);
+}
+
+.titulo_form3 h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.titulo_form4 {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(236, 11, 11, 0.1);
+    text-shadow: 2px 2px 4px rgb(111, 111, 114);
+}
+
+.titulo_form4 h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.principal {
+    background-image: url('../imagen/pexels-pixabay-260922.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.contenidouno h1{
+    margin-top: 200px;
+    margin-bottom: 15px;
+    color: #fdfdfd;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Matemasie";
+}
+
+.contenidouno h2{
+    margin-bottom: 15px;
+    color: #fdfdfd;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Matemasie";
+}
+
+.contenidouno p{
+    margin-bottom: 30px;
+    margin-bottom: 15px;
+    color: #fdfdfd;
+    text-shadow:2px 2px 4px #0056b3;
+    margin-bottom: 35px;
+    font-family: "Afacad Flux";
+}
+
+.button {
+    background-color: #000000; 
+    color: rgb(236, 236, 236); 
+    border: none; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease; 
+    text-shadow: 2px 2px 4px rgb(198, 198, 202);
+  }
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.cabecera {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    font-family: 'Amatic SC';
+
+}
+
+.button {
+    background-color: #000000;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: "Afacad Flux";
+
+
+}
+
+.button:hover {
+    background-color: #616161;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+    font-family: 'Amatic SC';
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/segunda.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow:2px 2px 4px #0056b3;
+    font-family: "Matemasie";
+
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #b42ff1;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #525252dc;
+    padding: 50px 0;
+    border-radius: 5px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow:2px 2px 4px #2f03cf;
+    font-family: "Matemasie";
+  }
+
+  .galeria p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    text-shadow:2px 2px 4px #240bac;
+    font-family: "Afacad Flux";
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:#0b0b0e;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Amatic SC';
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #585858;
+  }
+
+  .cabecera {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+
+a
+.galeria1 {
+    background-color: #000000dc;
+    padding: 50px 0;
+    border-radius: 5px;
+    }
+
+  .galeria1 h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Matemasie";
+  }
+
+  .galeria1 p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    line-height:5px ;
+    margin-bottom: 10px;
+    text-shadow:2px 2px 4px #000000;
+    font-family: "Afacad Flux";
+  }
+
+  .contenidotres1 {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres1 .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres1 .columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000000;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres1 .columna p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 20px;
+    
+  }
+
+  .contenidotres1 .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color:#0b0b0e;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Amatic SC';
+  }
+
+  .contenidotres1 .columna a:hover {
+    background-color: #585858;
+  }
+
+  .cabecera {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+a
+
+
+
+
+
+
+
+
+
+
+.titulo_form {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #54545c;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    text-shadow: 2px 2px 4px blue;
+}
+
+.titulo_form h2 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.titulo_form p {
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.columnas {
+    flex: 1;
+    margin: 0 20px;
+}
+.columnas img {
+    max-width: 70%;
+    border-radius: 50px;
+    box-shadow: 4px 4px 10px black;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+form td {
+    padding: 10px;
+}
+form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover {
+    background-color: #575757;
+}
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #000000;
+    color: #b42ff1;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 2px 2px 4px #092dfa;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.social-icons li {
+    display: inline-block;
+    
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 24px;
+    transition: color 0.3s;
+    text-shadow: 2px 2px 4px #505050;
+}
+
+.social-icons a:hover {
+    color: #6d6d6d; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
